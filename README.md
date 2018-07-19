@@ -22,7 +22,7 @@ Some parameters are introduced as below:
 - dist-ratio-num: Here dist-ratio-num denotes how many dist-ratio values are sampled within the given range.<br>
 
 **Note:**
-We only consider Random Forest as the target classifier in the codes.
+We only include Random Forest as the target classifier in the codes.
 
 ### Dataset
 We include a small dataset `data_small.npy` as an example for testing the codes. The dataset is in the form of a matrix, where the first column stores the labels and each row represents one data instance. The dataset is differnt from the ones used in our paper. Please refer to the paper for the data sources.
