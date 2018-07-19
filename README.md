@@ -1,10 +1,10 @@
 # Interpretation2Adversary
 
-This project provides an example of framework implementation for the paper: <br><br>
+This project provides an example of framework implementation for the paper: <br>
 
 **Adversarial Detection with Model Interpretation**<br>
 Ninghao Liu, Hongxia Yang, Xia Hu<br>
-Proceedings of KDD'18, London, UK <br><br>
+Proceedings of KDD'18, London, UK <br>
 
 using LASSO as the local interpretation model, under the L2 norm constraint.
 
