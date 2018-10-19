@@ -25,4 +25,4 @@ Some parameters are introduced as below:
 We only consider Random Forest as the target classifier in the codes.
 
 ### Dataset
-We include a small dataset `data_small.npy` as an example for testing the codes. The dataset is in the form of a matrix, where the first column stores the labels and each row represents one data instance. The dataset is differnt from the ones used in our paper. Please refer to the paper for the data sources.
+We include a small dataset `data_small.npy` as an example for testing the codes. The dataset is in the form of a numpy 2d array, where the first column stores the labels and each row represents one data instance. The dataset is differnt from the ones used in the paper. Please refer to the paper for the original data sources.
