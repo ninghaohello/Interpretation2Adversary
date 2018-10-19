@@ -29,11 +29,11 @@ def main():
     parser.add_argument('--seed-ratio', default=0.05, type=float,
                       help='Ratio of seeds among overall data')
     parser.add_argument('--dist-ratio-min', default=0.1, type=float,
-                      help='Ratio of seeds among overall data')
+                      help='Minimum perturnation magnitude for crafting adversarial samples')
     parser.add_argument('--dist-ratio-max', default=0.5, type=float,
-                        help='Ratio of seeds among overall data')
+                        help='Maximum perturnation magnitude for crafting adversarial samples')
     parser.add_argument('--dist-ratio-num', default=5, type=float,
-                        help='Ratio of seeds among overall data')
+                        help='The number of dist-ratio values are sampled within the given range')
 
     args = parser.parse_args()
     seed_ratio = args.seed_ratio
